@@ -6,12 +6,15 @@ I will be creating a simple game of solitaire with a simple graphic output (draw
  [    ]   [    ]   [    ]   [    ]
 
 |QH|   ||||  ||||   ||||   ||||   ||||   |||| 
+
        |KD|  ||||   ||||   ||||   ||||   ||||   
              |6C|   ||||   ||||   ||||   ||||   
                     |QS|   ||||   ||||   ||||
                            |8D|   ||||   ||||    
-                                  |8S|   ||||   
+                                  |8S|   ||||  
+                                  
                                          |7S|
+                                         
 ||||   |4S|
 
 (I will need to figure out how to translate this into github^^ I know how to lay it out in VSCode)
