@@ -3,7 +3,10 @@
 Kate McCarthy, CSCI 2275 (Working Alone)
 
 I will be creating a simple game of solitaire with a simple graphic output (drawings made out of keyboard characters) in an output.txt file that would look something along the lines of 
+
+
  [    ]   [    ]   [    ]   [    ]
+ 
 
 |QH|   ||||  ||||   ||||   ||||   ||||   |||| 
 
@@ -12,10 +15,11 @@ I will be creating a simple game of solitaire with a simple graphic output (draw
                     |QS|   ||||   ||||   ||||
                            |8D|   ||||   ||||    
                                   |8S|   ||||  
-                                  
                                          |7S|
                                          
 ||||   |4S|
+
+
 
 (I will need to figure out how to translate this into github^^ I know how to lay it out in VSCode)
 
