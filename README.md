@@ -14,6 +14,8 @@ I will be creating a simple game of solitaire with a simple graphic output (draw
                                          |7S|
 ||||   |4S|
 
+(I will need to figure out how to translate this into github^^ I know how to lay it out in VSCode)
+
 Where the top 4 piles are for inserting stacks of suits starting with Ace, a discard and draw pile in the corner. D = Diamond, H = Heart...
 
 My gameplay is inspired by the "Easy" Mode on the Google solitaire game (https://www.google.com/search?q=play+solitaire), where a user can click a card
