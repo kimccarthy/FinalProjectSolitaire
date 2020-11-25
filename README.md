@@ -1,5 +1,5 @@
 # FinalProjectSolitaire
-/*
+
 Kate McCarthy, CSCI 2275 (Working Alone)
 
 I will be creating a simple game of solitaire with a simple graphic output (drawings made out of keyboard characters) in an output.txt file that would look something along the lines of 
@@ -49,6 +49,3 @@ you may move any card and the cards below it to a new location.
 
 
 
-
-
-*/
