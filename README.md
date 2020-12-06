@@ -26,13 +26,15 @@ Gameplay:
 - D = Diamond, H = Heart, S = Spade, C = Club. Diamond and Heart are red suits, Spade and Club are black suits. 
 - |||| means that the card is hidden and cannot yet be played
 - The only divergence from traditional solitaire rules is that only one card is drawn from the draw pile at a time. 
+- If a card can be moved to one of the 4 final piles, it will only move there.
+- If there are multiple places a card may move on the board, it will prioritize the line farthest to the left. If inputted again, it will move to the other location.
 
 Rules: 
 - The object of the game is to complete all 4 card piles at the top of the board. These piles will start with the Ace of that given suit, and proceed through the values 2 to 10, then J, Q, K. Once all stacks are completed, you've won the game. 
-- If a card t
 - On the board, you can only move a card underneath a card of a greater rank of 1 and of an OPPOSITE COLOR suit. Ex: 3H can be moved under 4S, H is red, S is black. 
 - K>Q>J>10>9....>2>A
 - You may move any overturned card. If you move a card that has cards underneath it, all of the cards below it move too. So in a line of 5D-->4S-->3D, you may move any of those 3 cards, but if for example you move 5D, 4S and 3D will go with it. 
+- Only a King may move to an empty row.
 - Once a card is in one of the 4 final piles, it cannot be moved back to the board.
 - If you move a card and its previous card in the line is hidden, it will overturn the previous card.
 
