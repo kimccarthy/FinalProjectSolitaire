@@ -39,9 +39,9 @@ Rules:
 - If you move a card and its previous card in the line is hidden, it will overturn the previous card.
 
 
-Largest current bug is a lack of message when you complete the game, have to exit out yourself. 
+Largest current bug is occasionally when inserting an Ace, (and only an ace) into the 4 final piles, it will show up as overturned (||||). You can still play the next card on top of it and it does not hinder gameplay or winning. 
 
-No dependencies and works on all operating systems. 
+Code should have no dependencies and work on all operating systems, but the layout of the gameboard has not been tested in any compiler other than VSCode. Other compilers might have slightly different alignments of gameboard. 
 
 
 
