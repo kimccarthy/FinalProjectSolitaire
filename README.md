@@ -48,7 +48,7 @@ Rules:
 
 No current known bugs, but good to be aware that the rules I implemented make it so that if a card can be moved to the final 4 piles it will only be moved there and cannot be moved back down. This is how I play solitaire but apparently this is a controversial rule.  
 
-*Only library to double check for is curses.h* If curses.h cannot be downloaded, comment out line 22 of Gameplay.cpp (transform(...)) and the #include<curses.h> in the same file. There is no detriment to the game, but if this is out of the code you will need to type all inputs in all caps for the card to move properly
+*Only library to double check for is curses.h* I didn't need to download it in VSCode, but this hasn't been universal. If curses.h cannot be downloaded, comment out line 22 of Gameplay.cpp (transform(...)) and the #include<curses.h> in the same file. There is no detriment to the game, but if this is out of the code you will need to type all inputs in all caps for the card to move properly
 
 Besides this, code should have no dependencies and work on all operating systems. However the layout of the gameboard has not been tested in any compiler other than VSCode. Other compilers might have slightly different alignments of gameboard. 
 
