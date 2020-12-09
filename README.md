@@ -8,6 +8,8 @@ g++ -std=c++11 -o solitaire CardLine.cpp CardPile.cpp GameBoard.cpp Gameplay.cpp
 
 ./solitaire gameboard.txt
 
+Gameboard will print in gameboard.txt, NOT the terminal
+
 Summary:
 This is a very rudimentary game of solitaire, with rules akin to to the "Easy" Mode on the Google solitaire game (https://www.google.com/search?q=play+solitaire), where a user can click a card, and if there is a viable move, it will move the card to that spot as opposed to having the user physically drag it around. The game functions by users typing in the card input to move a card or line of cards. The main components of the code are a linked list for the card lines, a stack for all the card piles, the algorithms to check if a move is viable, and a shuffle function for both the original deck and to reshuffle the discard pile. 
 
