@@ -2,7 +2,7 @@
 
 Kate McCarthy, CSCI 2275 (Working Alone)
 
-How to Run: 
+How to Run
 
 g++ -std=c++11 -o solitaire CardLine.cpp CardPile.cpp GameBoard.cpp Gameplay.cpp
 
